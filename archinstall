@@ -1,6 +1,6 @@
 #Packages:
 
-pacstrap -K /mnt base linux linux-firmware base-devel networkmanager nvidia wget htop vi vim grub git
+pacstrap -K /mnt base linux linux-firmware base-devel networkmanager nvidia wget htop vi vim grub git openssh
 
 # genfstab -U /mnt >> /mnt/etc/fstab
 # arch-chroot /mnt
