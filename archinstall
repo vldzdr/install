@@ -44,3 +44,11 @@ sudo pacman -S nvidia
 rmmod pcskpr
 /etc/modprobe.d/turn-off-pc-speaker.conf
 blacklist pcspkr
+
+# bash prompt generator with fancy colors:
+# https://robotmoon.com/bash-prompt-generator/
+
+# grub theme:
+# https://github.com/lfelipe1501/Atomic-GRUB2-Theme
+# more themes:
+# https://github.com/jacksaur/Gorgeous-GRUB
