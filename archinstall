@@ -38,6 +38,7 @@ sudo pacman -S nvidia
 
 
 #Installing dwm, dmenu, st:
+#https://github.com/monroeclinton/arch_install/
 #https://forums.bunsenlabs.org/viewtopic.php?id=7571
 #https://faun.pub/the-easiest-way-to-install-dwm-43bbf668ea83
 
