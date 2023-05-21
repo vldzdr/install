@@ -142,3 +142,9 @@ EndSection
 * Fonts (maybe)
 
 `sudo pacman -Syu noto-fonts`
+ How do I change fonts? 
+ 1. Install the font you need. Usually with pacman -S somefont
+Use `fc-list` and get the font name to paste into st's config.h
+ Then you can rebuild st with `sudo make clean install`
+ 
+
