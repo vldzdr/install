@@ -138,3 +138,7 @@ Section "ServerLayout"
     Identifier "ServerLayout0"
 EndSection
 ```
+
+* Fonts (maybe)
+
+`sudo pacman -Syu noto-fonts`
