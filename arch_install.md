@@ -60,6 +60,8 @@ https://github.com/jacksaur/Gorgeous-GRUB
 
 - Bash prompt generator with fancy colors
 
+'PS1="\[\e[38;5;243m\]\u\[\e[38;5;245m\]@\[\e[38;5;249m\]\h \[\e[38;5;254m\]\w \[\033[0m\]$ "'
+
 https://robotmoon.com/bash-prompt-generator/
 
 
@@ -114,3 +116,25 @@ make install
 * Create `~/.xinitrc` and add:
 
 `exec dwm`
+
+
+* Stop monitor from turning off
+
+```
+cat /etc/X11/xorg.conf.d/10-stop-monitor-sleep.conf
+Section "Monitor"
+    Identifier "LVDS0"
+    Option "DPMS" "false"
+EndSection
+
+Section "ServerFlags"
+    Option "StandbyTime" "0"
+    Option "SuspendTime" "0"
+    Option "OffTime" "0"
+    Option "BlankTime" "0"
+EndSection
+
+Section "ServerLayout"
+    Identifier "ServerLayout0"
+EndSection
+```
