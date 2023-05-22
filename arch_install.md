@@ -1,6 +1,6 @@
 - Install Packages:
 
- `pacstrap -K /mnt base linux linux-firmware base-devel networkmanager nvidia wget htop nvim grub git openssh mlocate`
+ `pacstrap -K /mnt base linux linux-firmware base-devel networkmanager nvidia wget htop neovim grub git openssh mlocate`
 
 - Create fstab:
 
