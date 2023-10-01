@@ -1,0 +1,8 @@
+st zoom in and out - Ctrl Shift PgUp/PgDown
+move a window around - Alt + LeftMouseButton
+resize a window      - Alt + RightMouseButton
+return window to full size - Alt + Shift + Space
+spawn a terminal           - Alt + Shift + Enter 
+move through tags          - Alt + 1,2,3,4,5,6,7,8,9
+switch monitors            - Alt + , or Alt + .
+switch an app to different monitor - Alt + Shift + , or .
